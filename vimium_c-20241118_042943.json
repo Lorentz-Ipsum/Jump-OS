@@ -1,0 +1,35 @@
+{
+	"name": "Vimium C",
+	"@time": "11/18/2024, 4:29:43 AM",
+	"time": 1731900583523,
+	"environment": {
+		"extension": "2.11.3",
+		"platform": "win",
+		"chromium": 130
+	},
+	"exclusionRules": [
+		{
+			"passKeys": "",
+			"pattern": ":https://mail.google.com/"
+		},
+		{
+			"passKeys": "",
+			"pattern": ":https://www.shadertoy.com/"
+		},
+		{
+			"passKeys": "",
+			"pattern": ":https://docs.google.com/"
+		},
+		{
+			"passKeys": "",
+			"pattern": ":https://docs.google.com/"
+		}
+	],
+	"keyMappings": [
+		"#!no-check",
+		"unmap f",
+		"map q LinkHints.activate",
+		""
+	],
+	"vimSync": true
+}
