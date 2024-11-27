@@ -1,0 +1,24 @@
+winget install -e --id qBittorrent.qBittorrent
+winget install -e --id SumatraPDF.SumatraPDF
+winget install --id=Logseq.Logseq  -e
+winget install -e --id TorProject.TorBrowser
+winget install -e --id Oracle.VirtualBox
+winget install -e --id CPUID.CPU-Z
+winget install -e --id 7zip.7zip
+winget install -e --id Notepad++.Notepad++
+winget install --id=Brave.Brave -e
+winget install --id Microsoft.PowerToys --source winget
+winget install DominikReichl.KeePass
+winget install discord.discord
+winget install renoise.renoise
+winget install windirstat
+winget install --exact --silent --id NDI.NDIRuntime
+winget install --exact --silent --id NDI.NDITools
+winget install obsproject.obsstudio
+winget install voidtools.everything
+winget install synctrayzor
+winget install --id=AutoHotkey.AutoHotkey  -e
+winget install valve.steam
+winget install --id=Gyan.FFmpeg  -e
+winget install gokcehan.lf
+winget install Frontesque.scrcpy+
