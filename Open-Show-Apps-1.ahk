@@ -168,16 +168,22 @@ ExtractAppTitle(FullTitle)
 #q::OpenOrShowAppBasedOnExeName("C:\Program Files\KeePass Password Safe 2\KeePass.exe")
 ; Terminal
 #Enter::Send #1
+
 ; Obsidian
 #v::OpenOrShowAppBasedOnExeName("C:\Users\Manu Arroyo\AppData\Local\Obsidian\Obsidian.exe")
+; LogSeq
+#!v::OpenOrShowAppBasedOnExeName("C:\Users\Manu Arroyo\AppData\Local\Logseq\Logseq.exe")
+; VS Code
+#+v::OpenOrShowAppBasedOnExeName("C:\Users\manuf\AppData\Local\Programs\Microsoft VS Code\Code.exe")
+; Notepad++
+#z::OpenOrShowAppBasedOnExeName("C:\Program Files\Notepad++\notepad++.exe")
+
 ; Firefox
-#w::OpenOrShowAppBasedOnExeName("C:\Program Files\Mozilla Firefox\firefox.exe")
-
+#c::OpenOrShowAppBasedOnExeName("C:\Program Files\Mozilla Firefox\firefox.exe")
 ; Chrome
-#!w::OpenOrShowAppBasedOnExeName("C:\Program Files\Google\Chrome\Application\chrome.exe")
-
+;#!c::OpenOrShowAppBasedOnExeName("C:\Program Files\Google\Chrome\Application\chrome.exe")
 ; Brave
-#^w::OpenOrShowAppBasedOnExeName("C:\Users\Manu Arroyo\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe")
+#!c::OpenOrShowAppBasedOnExeName("C:\Users\Manu Arroyo\AppData\Local\BraveSoftware\Brave-Browser\Application\brave.exe")
 
 
 ; TouchDesigner
@@ -187,10 +193,7 @@ ExtractAppTitle(FullTitle)
 ; ResolPume
 ;#a::OpenOrShowAppBasedOnExeName("C:\Program Files\Resolume Arena\Arena.exe")
 
-; VS Code
-#+v::OpenOrShowAppBasedOnExeName("C:\Users\manuf\AppData\Local\Programs\Microsoft VS Code\Code.exe")
-; Notepad++
-#z::OpenOrShowAppBasedOnExeName("C:\Program Files\Notepad++\notepad++.exe")
+
 ; Spotify
 #f::OpenOrShowAppBasedOnExeName("C:\Users\manuf\AppData\Roaming\Spotify\Spotify.exe")
 ; Steam
